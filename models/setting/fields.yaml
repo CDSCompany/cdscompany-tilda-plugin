@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+tabs:
+    fields:
+        public_key:
+            tab: Settings
+            label: Public key API (use only MASTER key)
+            type: text
+        secret_key:
+            tab: Settings
+            label: Secret key API (use only MASTER key)
+            type: text
+ 

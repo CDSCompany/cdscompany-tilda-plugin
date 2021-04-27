@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Tilda Project
+
+# Model Form Field configuration
+form: $/cds/tilda/models/tildaproject/fields.yaml
+
+# Model Class name
+modelClass: Cds\Tilda\Models\TildaProject
+
+# Default redirect location
+defaultRedirect: cds/tilda/tildaprojects
+
+# Create page
+create:
+    title: Create Tilda Project
+    redirect: cds/tilda/tildaprojects/update/:id
+    redirectClose: cds/tilda/tildaprojects
+
+# Update page
+update:
+    title: Edit Tilda Project
+    redirect: cds/tilda/tildaprojects
+    redirectClose: cds/tilda/tildaprojects
+
+# Preview page
+preview:
+    title: Preview Tilda Project

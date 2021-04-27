@@ -1,0 +1,82 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    title:
+        label: Title
+    description:
+        label: Description
+        type: textarea
+    image:
+        label: Image (for list)
+        type: Backend\FormWidgets\FileUpload
+        mode: image
+        fileTypes: jpg,jpeg,png,gif
+        mimeTypes: jpeg,png,gif    
+    archive:
+        label: Archive (zip)
+        type: Backend\FormWidgets\FileUpload
+        mode: file
+    filename:
+        label: filename
+    published_tilda_at:
+        label: Date publish (from tilda)
+        type: datepicker
+    tilda_id:
+        label: Tilda ID page
+        disabled: true
+    is_active:
+        label: Active
+        type: switch
+    type:
+        label: Type
+        type: dropdown
+    slug:
+        label: Slug
+        type: text
+    seo_title:
+        label: Seo title
+        type: text
+    seo_description:
+        label: Seo description
+        type: textarea        
+    html:
+        label: HTML code page
+        type: textarea
+    js:
+        label: JS files
+        disabled: true
+        type: repeater
+        form:
+            fields:
+                from:
+                    label: From
+                    type: text
+                to:
+                    label: To
+                    type: text
+    css:
+        label: CSS files
+        disabled: true
+        type: repeater
+        form:
+            fields:
+                from:
+                    label: From
+                    type: text
+                to:
+                    label: To
+                    type: text
+    images:
+        label: Images
+        disabled: true
+        type: repeater
+        form:
+            fields:
+                from:
+                    label: From
+                    type: text
+                to:
+                    label: To
+                    type: text

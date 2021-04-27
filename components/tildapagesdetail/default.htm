@@ -1,0 +1,11 @@
+{% if __SELF__.page_id > 0 %}
+	{% for js in __SELF__.js %}
+		<script src="{{ js.from }}"></script>
+	{% endfor %}
+	{% for css in __SELF__.css %}
+		<link href="{{ css.from }}" rel="stylesheet">
+	{% endfor %}
+	
+	
+	{{ __SELF__.html|raw }}
+{% endif %}

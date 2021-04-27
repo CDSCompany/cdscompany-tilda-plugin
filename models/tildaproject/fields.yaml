@@ -1,0 +1,25 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    id:
+        label: ID
+        disabled: true
+        span: right
+    title:
+        label: Название
+        required: true
+        type: text
+        span: left
+    tilda_id:
+        label: Tilda ID
+        disabled: true
+        span: right
+    description:
+        label: Описание
+        type: textarea
+        span: left
+    tildapages:
+        label: Страницы
+        type: partial   

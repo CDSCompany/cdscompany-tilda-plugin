@@ -1,0 +1,25 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    title:
+        label: Title
+        searchable: true
+    description:
+        label: Description
+        searchable: true
+    tilda_id:
+        label: Tilda ID
+        searchable: true
+    created_at:
+        label: Created
+        searchable: true
+        type: datetime
+    updated_at:
+        label: Updated
+        searchable: true
+        type: datetime

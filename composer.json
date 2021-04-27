@@ -1,0 +1,8 @@
+{
+    "name": "cds/tilda-plugin",
+    "type": "october-plugin",
+    "description": "Tilda pages for october cms",
+    "require": {
+        "composer/installers": "~1.0"
+    }
+}

@@ -1,0 +1,24 @@
+{% set tildaPages = __SELF__.tildaPages %}
+	{% if tildaPages|length > 0 %}
+	<div class="tilda-list">
+		{% for tildaPage in tildaPages %}
+			<div class="tilda-list__item">
+				{% if tildaPage.image_thumb %}
+					<a href="{{ tildaPage.url }}" class="tilda-list__item-image">
+						<img src="{{ tildaPage.image_thumb }}" alt="{{ tildaPage.title }}" title="{{ tildaPage.title }}">
+					</a>
+				{% endif %}
+				<a href="{{ tildaPage.url }}" class="tilda-list__item-title">
+					{{ tildaPage.title }}
+				</a>
+				<div class="tilda-list__item-description">
+					{{ tildaPage.description }}
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+{% else %}
+	<div class="tilda-list__empty">
+		Pages tilda not yet...
+	</div>
+{% endif %}

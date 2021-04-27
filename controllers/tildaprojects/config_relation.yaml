@@ -1,0 +1,10 @@
+tildapages:
+    label: page
+    manage:
+        list: $/cds/tilda/models/tildapage/columns.yaml
+        form: $/cds/tilda/models/tildapage/fields.yaml
+        toolbarButtons: create|delete
+    view:
+        list: $/cds/tilda/models/tildapage/columns.yaml
+        form: $/cds/tilda/models/tildapage/fields.yaml
+        toolbarButtons: create|delete

@@ -1,0 +1,27 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    title:
+        label: Title
+        searchable: true
+    description:
+        label: Description
+        searchable: true
+    tilda_id:
+        label: Tilda ID
+        searchable: true
+    type:
+        label: Type
+        type: partial
+    is_active:
+        label: Active
+        searchable: true
+        type: switch
+    slug:
+        label: Slug
+        searchable: true

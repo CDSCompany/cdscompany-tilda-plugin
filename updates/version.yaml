@@ -1,0 +1,4 @@
+1.0.1:
+- Run table migrations
+- create_tilda_projects_table.php
+- create_tilda_pages_table.php
