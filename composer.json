@@ -1,5 +1,5 @@
 {
-    "name": "cds/tilda-plugin",
+    "name": "cdscompany/tilda-plugin",
     "type": "october-plugin",
     "description": "Tilda pages for october cms",
     "require": {
